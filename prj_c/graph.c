@@ -47,11 +47,11 @@ void addToGraph(struct adj_list* list, int src, int num_dest, int* dest)
 	}
 }
 
-void print_graph(int num_nodes, struct graph* g)
+void print_graph(struct graph* g)
 {
 	struct node* node = NULL;
 
-    for (int i=0; i<num_nodes; i++)
+    for (int i=0; i<g->num_nodes; i++)
     {
     	printf("\n");
     	node = g->array_of_vertices[i].nodes;
@@ -94,5 +94,5 @@ int main()
 	addToGraph(&g.array_of_vertices[4], 20, 1, dest);
 
     // print graph
-	print_graph(5, &g);
+	print_graph(&g);
 }
