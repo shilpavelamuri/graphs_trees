@@ -28,6 +28,7 @@ std::set<int>& MyStlExample::getSet()
     return score;
 }
 
+#if 0
 int main()
 {
 	MyStlExample myStlObj;
@@ -52,3 +53,4 @@ int main()
     	printf("%d ", *s_it);
     }
 }
+#endif

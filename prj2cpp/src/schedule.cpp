@@ -11,7 +11,7 @@
 using namespace std;
 
 
-
+#if 0
 int main()
 {
 	int n = 10;
@@ -58,3 +58,4 @@ int main()
     m++;
     printf("\nm:%d", m);
 }
+#endif

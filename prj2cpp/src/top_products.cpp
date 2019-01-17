@@ -11,6 +11,7 @@
 
 using namespace std;
 
+#if 0
 int main()
 {
     std::multimap<string, int> inpMap;
@@ -42,3 +43,4 @@ int main()
     	printf("%s ", rit->second.c_str());
     }
 }
+#endif

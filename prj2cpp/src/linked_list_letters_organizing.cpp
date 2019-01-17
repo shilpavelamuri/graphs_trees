@@ -10,6 +10,7 @@
 
 using namespace std;
 
+#if 0
 int main()
 {
 	std::multiset<char> outSet;
@@ -27,3 +28,4 @@ int main()
     	printf("%c ", *it);
     }
 }
+#endif

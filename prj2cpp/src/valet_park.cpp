@@ -18,7 +18,7 @@ typedef enum {
 } car_size_defs_enum;
 
 
-
+#if 0
 int main()
 {
 	// 3 parking slot maps for the different sized cars
@@ -132,3 +132,4 @@ int main()
 	// retrieve
 	// ticket number itself is the parking spot number
 }
+#endif

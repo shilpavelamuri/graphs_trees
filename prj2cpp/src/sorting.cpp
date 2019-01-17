@@ -116,7 +116,7 @@ void quicksort(std::list<char>& list)
     quickSort(inpVec, 0, inpVec.size()-1-1);
 }
 
-
+#if 0
 int main()
 {
 	char array[6] = {'z', 'y', 'x', 'c', 'a', 'b'};
@@ -125,3 +125,4 @@ int main()
 
     quicksort(inpList);
 }
+#endif
